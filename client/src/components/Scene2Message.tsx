@@ -8,7 +8,7 @@ interface Scene2MessageProps {
 
 export default function Scene2Message({ onNext }: Scene2MessageProps) {
   const messageText =
-    "Selamat tambah umur ya dit... ya walaupun ini telat sehari si hehe.";
+    "Selamat tambah umur ya dit... ya walaupun ini telat 2 hari si hehe.";
 
   return (
     <div className="relative w-full h-screen flex items-center justify-center overflow-hidden">
