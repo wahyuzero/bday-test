@@ -52,7 +52,7 @@ export default function Scene2Message({ onNext }: Scene2MessageProps) {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <h2 className="font-dancing text-3xl md:text-6xl font-bold text-pink-700 mb-6">
-            Buat yang nambah umur hari <i class="line-through text-gray-500">hari ini</i> kemarin
+            Buat yang nambah umur <i class="line-through text-red-500">hari ini</i> <i class="line-through text-gray-500">kemarin</i> 2 hari yang lalu
           </h2>
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-light">
             {messageText}
